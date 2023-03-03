@@ -10,7 +10,7 @@ var myPublicIp;
 var index = require('./routes/index');
 
 var app = express();
-
+console.log('init')
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
